@@ -2,7 +2,7 @@
 
 Syntactic sugar in Swift for WatchKit Complications.
 
-*Complication* sugar looks like this:
+**Complication** sugar looks like this:
 ```swift
 let template = CLKComplicationTemplate.Modular.Small.stackText()
 ```
