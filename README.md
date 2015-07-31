@@ -17,6 +17,6 @@ let template = CLKComplicationTemplate.subType(forFamily: complication.family) a
 if true {
   return template.stackText()
 } else {
-  return return template.simpleImage()
+  return template.simpleImage()
 }
 ```
