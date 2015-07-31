@@ -14,5 +14,9 @@ let template = CLKComplicationTemplateModularSmallStackText()
 It also allows you to get a sub-type matching a `CLKComplicationFamily`:
 ```swift
 let template = CLKComplicationTemplate.subType(forFamily: complication.family) as! CLKComplicationTemplate.Modular.Small.Type
-template.stackText()
+if true {
+  return template.stackText()
+} else {
+  return return template.simpleImage()
+}
 ```
